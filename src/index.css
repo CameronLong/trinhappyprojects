@@ -11,3 +11,172 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.firstImage{
+  padding-top: 5rem;
+  width: 100%;
+}
+.secondImage{
+  padding-top: 49rem;
+  width: 100%;
+}
+.thirdImage{
+  width: 100%;
+}
+
+.divStyle {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 37rem;
+  background-size: cover;
+  z-index: 0;
+}
+
+.custom-prev{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+}
+
+.custom-next{
+  position: absolute;
+  z-index: 1;
+  right: 0;
+}
+
+.arrows{
+  width: 3rem;
+  padding: 4.5rem;
+  padding-top: 23rem;
+  opacity: 55%;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  color: white;
+  padding-top: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+}
+
+.navbar-links{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  right: 0;
+}
+.navbar-link-item {
+  margin-right: 3rem;
+  font-weight: 300;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.slider-text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  position: absolute;
+  padding-top: 18rem;
+  color: white;
+  font-size: 2rem;
+  z-index: 2;
+  display: flex;
+}
+
+.card-container {
+ padding-top: 5rem;
+ padding-left: 14rem;
+ display: flex;
+ padding-bottom: 5rem;
+}
+
+.card-link{
+  text-decoration: none;
+}
+.card {
+  justify-content: center;
+  margin-right: 4rem;
+  text-decoration: none;
+}
+
+.card-image {
+  width: 22rem;
+  /* padding-right: 4rem; */
+}
+.card-image:hover{
+  opacity: 75%;
+}
+
+.card-header {
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  text-decoration: none !important;
+  color: black;
+}
+.card-text {
+  text-decoration: none !important;
+  color: black;
+}
+
+.second-card-image {
+  width: 24.7rem;
+}
+.second-card-image:hover{
+  opacity: 75%;
+}
+
+.card-arrow {
+  width: 2rem;
+  opacity: 0%;
+}
+.card .card-arrow:hover{
+  opacity: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.footer-image{
+  /* width: auto; */
+  /* height: auto; */
+  position: absolute;
+  top: -40%;
+  bottom: -600%;
+}
+
+.quoteSection{
+  /* width: 100%; */
+  height: 40%;
+}
+
+.homeImage{
+  width: 40%;
+  object-fit: none;
+}
