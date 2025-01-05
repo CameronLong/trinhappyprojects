@@ -28,7 +28,7 @@ function ImageSlider() {
   return (
     <>
       <div className="slide-container">
-        <Slide {...properties}>
+        <Slide {...properties}> 
           {slideImages.map((image, index) => {
             let imageClass = "";
             if (image.caption == "First Slide") {
