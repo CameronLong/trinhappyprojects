@@ -1,14 +1,16 @@
 import React from "react";
 import '../index.css';
+import footerImage from '../IMG_5914.jpeg';
 
 function Footer() {
   return (
     <>
+      <div className="inquireSection">
+        <img className="footer-image" src={footerImage}></img>
+        <h1 className="footerImageText">LET'S HAVE SOME FUN</h1>
+      </div>
       <div className="footer">
-        <img
-          className="footer-image"
-          src="https://images-pw.pixieset.com/elementfield/LpvqXDz/IMG_5914-e50ea09a-2500.jpeg"
-        ></img>
+        <p>footer text</p>
       </div>
     </>
   );
